@@ -48,7 +48,7 @@ Gerencia o cadastro de funcionários. Utiliza **Spring Data JPA**, onde o `JpaRe
 
 ---
 
-### 🛒 API Vendas — porta `8081`
+### API Vendas — porta `8081`
 
 Registra as vendas realizadas pelos funcionários. Utiliza **JDBC puro** com queries SQL escritas manualmente.
 
@@ -93,7 +93,7 @@ Registra as vendas realizadas pelos funcionários. Utiliza **JDBC puro** com que
 
 ---
 
-## 🔗 Comunicação entre as APIs
+## Comunicação entre as APIs
 
 As duas APIs são completamente independentes, cada uma com seu próprio banco de dados. A integração é feita via **RestTemplate** na camada de Service da API de Vendas.
 
@@ -122,7 +122,7 @@ DTOs        ->  RequestDTO (entrada) / ResponseDTO (saída)
 
 ---
 
-## ▶️ Como rodar
+## Como rodar
 
 1. Clone o repositório
 ```bash
